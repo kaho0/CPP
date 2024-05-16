@@ -1,0 +1,1 @@
+cout<<ptr2-ptr1<<endl;

@@ -1,0 +1,1 @@
+cout<<lastdigit<<" "<<endl;
