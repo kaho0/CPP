@@ -16,9 +16,16 @@ void printSUbArrays(int *arr,int n){
 
     }
 }
-int main()
-{
-  int arr[5]={1,2,3,4,5};
-  int n=5;
-  printSUbArrays(arr,n);
+int main() {
+    int n;
+    cout << "Enter the number of elements in the array: ";
+    cin >> n;
+    int arr[n];
+    cout << "Enter the elements of the array: ";
+    for(int i = 0; i < n; i++) {
+        cin >> arr[i];
+    }
+    printSUbArrays(arr, n);
+    
+    return 0;
 }
