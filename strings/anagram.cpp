@@ -30,4 +30,5 @@ int main()
 {
     string str1="nagaram";
     string str2="anagram";
+    isAnagram(str1,str2);
 }
