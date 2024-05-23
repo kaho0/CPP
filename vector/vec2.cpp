@@ -12,5 +12,12 @@ int main()
     vec.pop_back();
     cout<<"Size:"<<vec.size()<<endl;
     cout<<"capacity: "<<vec.capacity()<<endl;
+    vector<int>v;
+    for(int i=0;i<5;i++)
+    {
+        v.push_back(i);
+    }
+    cout<<v.size()<<endl;
+    cout<<v.capacity()<<endl;
 
 }
