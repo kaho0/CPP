@@ -16,6 +16,7 @@ class car{
         name=original.name;
         color=original.color;
     }
+    
 
 };
 int main()

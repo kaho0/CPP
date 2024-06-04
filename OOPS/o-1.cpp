@@ -21,6 +21,7 @@ class user{
   {
     bio=newbio;
   }
+
 };
 int main()
 {
