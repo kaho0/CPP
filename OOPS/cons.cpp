@@ -18,11 +18,15 @@ class rectangle{
           l=r.l;
           b=r.b;
     }
+    ~rectangle(){
+        cout<<"destructor is called"<<endl;
+    }
 };
 int main()
 {
-    rectangle r1;
-    cout<<r1.l<<" "<<r1.b<<endl;
+    rectangle *r1 =new rectangle();
+    cout<<r1->l<<" "<<r1->b<<endl;
+    delete r1;
     rectangle r2(2,3);
     cout<<r2.l<<" "<<r2.b<<endl;
     rectangle r3= r2;
